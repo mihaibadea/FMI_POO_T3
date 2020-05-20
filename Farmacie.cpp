@@ -57,7 +57,7 @@ std::istream & operator >> (std::istream &in,  Farmacie &f)
     return in;
 }
 
-long long Farmacie::profit_total()
+long long Farmacie::profit_total() const
 {
     long long rez;
 
@@ -67,9 +67,4 @@ long long Farmacie::profit_total()
     }
 
     return rez;
-}
-
-int angajati()
-{
-    return nr_ang;
 }

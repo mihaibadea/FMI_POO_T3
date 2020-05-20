@@ -15,7 +15,7 @@ class Farmacie
         friend std::istream & operator >> (std::istream &, Farmacie &);
         Farmacie(const Farmacie&)=default;
         Farmacie& operator=(Farmacie &)=default;
-        long long profit_total();
+        long long profit_total() const;
         int angajati();
 
     protected:
