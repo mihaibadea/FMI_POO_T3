@@ -66,6 +66,8 @@ int main()
                 std::cin>>*tmp;
 
                 f.push_back(tmp);
+
+                std::cout<<"Am reținut.\n";
             }
 
             else
