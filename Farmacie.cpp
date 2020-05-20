@@ -68,3 +68,8 @@ long long Farmacie::profit_total()
 
     return rez;
 }
+
+int angajati()
+{
+    return nr_ang;
+}

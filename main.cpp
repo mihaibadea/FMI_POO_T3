@@ -3,14 +3,6 @@
 #include "Farmacie_online.h"
 #include "Gestionare_Farmacii.h"
 
-
-/*bool poatefireturnatin14zile(auto societate, std::string produs)
-{
-    Farmacie_online f;
-    return typeid(societate) == typeid(f);
-}*/
-
-
 int main()
 {
 
@@ -42,6 +34,7 @@ int main()
 
         delete sefu;
     }
+
     else
     {
         std::cout<<"Te rugăm să încerci mai târziu. :(\n";

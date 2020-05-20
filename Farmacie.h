@@ -16,6 +16,7 @@ class Farmacie
         Farmacie(const Farmacie&)=default;
         Farmacie& operator=(Farmacie &)=default;
         long long profit_total();
+        int angajati();
 
     protected:
         std::string nume;

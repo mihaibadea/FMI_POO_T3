@@ -39,7 +39,7 @@ std::istream & operator >> (std::istream &in, Farmacie_online &f)
     return in;
 }
 
-int Farmacie_online::nr_viz()
+int Farmacie_online::nr_viz() const
 {
     return std::get<1>(info);
 }

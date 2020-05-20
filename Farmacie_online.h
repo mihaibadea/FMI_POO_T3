@@ -16,7 +16,7 @@ class Farmacie_online : public Farmacie
         Farmacie_online& operator=(Farmacie_online &)=default;
         friend std::ostream & operator << (std::ostream &, Farmacie_online &);
         friend std::istream & operator >> (std::istream &, Farmacie_online &);
-        int nr_viz();
+        int nr_viz() const;
 
     protected:
 
